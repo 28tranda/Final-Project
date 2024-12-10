@@ -169,7 +169,7 @@ cherry_button.addEventListener('click', function btn2() {
     placingCherry = true;
     placingPeashooter = false;
 });
-
+// This function has been previously used
 function gameClick(evt) {
     const canvas = document.getElementById('game');
     const rect = canvas.getBoundingClientRect();
@@ -240,7 +240,7 @@ function restartGame() {
     document.getElementById('game-over').classList.add('hidden');
     animate(); // Restart animation
 }
-
+// This Function has been previously used
 function main() {
     const canvas = document.getElementById('game');
 
